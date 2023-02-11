@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChineseCheckers.GameConroller">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAABAgIEAAAAAAAAAAAAAAAAIAAAAAAAAgA=</HashCode>
+      <FileName>Conroller\GameConroller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+      <Field Name="gameForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Board">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAQAAAAAAIQAAgAEAAAAgIAAAAQMBAAAACAAAAhEAAA=</HashCode>
+      <FileName>Model\Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player1" />
+      <Field Name="player2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Piece">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAIAgAAAIAAAQACAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Model\Piece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.Player">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAQAAggEAYQAAAABAAAAEAAgICCAAAEAABA=</HashCode>
+      <FileName>Model\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="pieces" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Program" Collapsed="true">
+    <Position X="14.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.GameForm" Collapsed="true">
+    <Position X="12.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAABCAAAIAAAAAAAQAABAAAg=</HashCode>
+      <FileName>View\GameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.MenuForm" Collapsed="true">
+    <Position X="14.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAAAIIACAQAACAAAAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>View\MenuForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.Model.ComputerPlayer">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRCAAAAIAAAAAAACIAAAAAACAAAAgIAAAAAAAEAAAA=</HashCode>
+      <FileName>Model\ComputerPlayer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="graph" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Model.Graph">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAAAAAAAAAAAAACCAAAAAAAIAAAABAAAAA=</HashCode>
+      <FileName>Model\Graph.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Model.Move">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAIAAACAAEAAAAAAAAAAAAQAABAA=</HashCode>
+      <FileName>Model\Move.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="originPiece" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Model.PriorityQueue">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Model\PriorityQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.Properties.Resources" Collapsed="true">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.Properties.Settings" Collapsed="true">
+    <Position X="13" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
